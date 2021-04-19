@@ -1,0 +1,23 @@
+### //para ele entender que tem um test e depois outro
+
+
+
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/ciclo/listar
+
+###
+GET http://localhost:3000/ciclo/listar/:param1/:param2/:param3
+
+###
+POST  http://localhost:3000/ciclo/cadastrar
+Content-Type: application/json     
+
+ //tipo do seu conteudo
+ {
+     //simulando o envio de um objeto para essa rota -> 
+    "data": "2021/04/12"
+ }
+
+ 
